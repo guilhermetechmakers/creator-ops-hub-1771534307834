@@ -6,6 +6,7 @@ import { DashboardLayout } from '@/components/layout/dashboard-layout'
 import { LandingPage } from '@/pages/landing'
 import { LoginPage } from '@/pages/auth/login'
 import { SignupPage } from '@/pages/auth/signup'
+import LoginSignupPage from '@/pages/Login/Signup'
 import { EmailVerificationPage } from '@/pages/auth/email-verification'
 import { PasswordResetRequestPage } from '@/pages/auth/password-reset-request'
 import { PasswordResetPage } from '@/pages/auth/password-reset'
@@ -39,6 +40,7 @@ export const router = createBrowserRouter([
       { index: true, element: <LandingPage /> },
       { path: 'login', element: <LoginPage /> },
       { path: 'signup', element: <SignupPage /> },
+      { path: 'login-/-signup', element: <LoginSignupPage /> },
       { path: 'verify-email', element: <EmailVerificationPage /> },
       { path: 'forgot-password', element: <PasswordResetRequestPage /> },
       { path: 'reset-password', element: <PasswordResetPage /> },

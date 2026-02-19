@@ -46,13 +46,13 @@ export function LandingPage() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Button asChild size="lg" className="group">
-                <Link to="/signup">
+                <Link to="/login-/-signup">
                   Get Started Free
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link to="/login">Sign In</Link>
+                <Link to="/login-/-signup">Sign In</Link>
               </Button>
             </div>
           </div>
@@ -99,7 +99,7 @@ export function LandingPage() {
             Join creators and teams who ship faster with Creator Ops Hub.
           </p>
           <Button asChild size="lg" className="mt-8">
-            <Link to="/signup">Start Free Trial</Link>
+            <Link to="/login-/-signup">Start Free Trial</Link>
           </Button>
         </div>
       </section>
